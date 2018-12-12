@@ -1,0 +1,2 @@
+# msimsk.github.io
+Özgeçmiş
