@@ -5,7 +5,6 @@ function loadSkills(){
   loader(document.getElementById('Java'),document.getElementById('Java').innerHTML);
   loader(document.getElementById('Ruby'),document.getElementById('Ruby').innerHTML);
   loader(document.getElementById('Python'),document.getElementById('Python').innerHTML);
-  loader(document.getElementById('Eng'),document.getElementById('Eng').innerHTML);
 }
 
   function loader(element,percent){
