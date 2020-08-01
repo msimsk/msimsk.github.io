@@ -1,129 +1,280 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Özgeçmiş</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="js/script.js"></script>
-  <style type="text/css">
-    html{
-      overflow-x: hidden;
-    }
-    a,#sosyal i{
-      color: #c65e60;
-    }
-    #beceriler p{
-      color: white;
-    }
+<html lang="en">
 
-  </style>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mustafa Şimşek - Özgeçmiş</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
-<body onload="loadSkills();">
-<div class="card border-0">
-  <div class="row">
+<body>
 
-    <div class="col-lg-3 col-md-4 col-sm-12">
-      <div class="sticky-top mt-0 ml-0">
-        <div class="container text-center p-5 bg-dark text-light" id="sosyal" style="width: 100%; height: 55vh; margin: auto;">
-          <img src="resim/avatar.jpg" style="max-width: 200px; margin: auto;" alt="Avatar" class="rounded-circle">
-          <h2 class="text-center">Mustafa Şimşek</h2>
-          <h3 class="text-center">
-            <a href="https://www.facebook.com/people/Mustafa-Şimşek/100021343832100" target="_blank">
-              <i class="fa fa-facebook-official"></i>
-            </a>
-            <a href="https://www.instagram.com/mustafasimsek1105/?hl=tr" target="_blank">
-              <i class="fa fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/_SMustafa" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-            <a href="https://linkedin.com/in/mustafa-şimşek-18b300160" target="_blank">
-              <i class="fa fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/msimsk" target="_blank">
-              <i class="fa fa-github"></i>
-            </a>
-          </h3>
-        </div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
-        <div class="container text-light" style="height: 45vh; background: #c65e60;">
-          <p><i class="fa fa-home mr-3 mt-4"></i>Fırat Üniversitesi</p>
-          <p><i class="fa fa-university mr-3 "></i>Yazılım Mühendisliği</p>
-          <p><i class="fa fa-briefcase mr-3 "></i>Öğrenci "3.Sınıf"</p>
-          <p><i class="fa fa-envelope mr-3 "></i>mustafamustafa1645@hotmail.com</p>
-          <p><i class="fa fa-phone mr-3 "></i>05434119606</p>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Mustafa Şimşek</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/_SMustafa" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/people/Mustafa-Şimşek/100021343832100" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/mustafasimsek1105/?hl=tr" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://linkedin.com/in/mustafa-şimşek-18b300160" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/msimsk" class="linkedin"><i class="bx bxl-github"></i></a>
         </div>
       </div>
-    </div>
 
-    <div class="col-lg-6 col-md-5 col-sm-12 p-3">
-      <div class="container mt-3">
-        <h2><b><i class="fa fa-suitcase mr-3"></i>Aldığı Dersler</b></h2>
+      <nav class="nav-menu">
         <ul>
-          <li><b>Algoritma Ve Programlama 1 =></b> C Programlama </li>
-          <li><b>Bilgisayar Bilimlerine Giriş</b> HTML, CSS ve PHP</li>
-          <li><b>Algoritma Ve programlama 2</b> Java</li>
-          <li><b>Yazılım Mühendisliğinin Temellerine Giriş</b> Android</li>
-          <li><b>Veri Yapıları</b> C Programlama</li>
-          <li><b>Nesne Tabanlı Programlama</b> Python</li>
-          <li><b>Web Tasarımı Ve Programlama</b> Ruby On Rails</li>
-          <li><b>Veri Tabanı Yönetim Sistemleri</b> MSSQL ve MYSQL</li>
-        </ul>
-        <hr>
-        <h2><b><i class="fa fa-tasks mr-3"></i>Projeler</b></h2>
-        <ul>
-          <li><b><a href="https://github.com/msimsk/Go-Bird" target="_blank">Go Bird; </a></b><br>Android Studio ile geliştirdiğim Flappy Bird tarzı basit mobil oyun.</li>
-          <li><b><a href="https://github.com/msimsk/PachyMiniSumo" target="_blank">Pachy Mini Sumo; </a></b><br>Arduino nano ile geliştirdiğimiz mini sumomuz.</li>
-          <li><b><a href="https://github.com/msimsk/Futbol-Kulupleri-icin-Veri-Tabani" target="_blank">Futbol Kulüpleri İçin Veri Tabanı;</a> </b><br>Veri Tabanı Yönetim sistemleri dönem proje ödevi olarak MySQL kullanarak tasarladığım veri tabanı.</li>
-          <li><b><a href="https://github.com/msimsk/Ruby-On-Rails-Kitaplik-sitesi" target="_blank">Ruby On Rails Kitaplık Uygulaması; </a></b><br>Rails ile geliştirmiş olduğum basit kitaplık sitesi.</li>
-          <li><b>Ders Programı; </b><br>Android Studio ile geliştirdiğim Ders Programı uygulaması "Geliştirilmekte".</li>
-        </ul>
-      </div> 
-    </div>
+          <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Ana Sayfa</span></a></li>
+          <li><a href="#about"><i class="bx bx-user"></i> <span>Hakkında</span></a></li>
+          <li><a href="#skills"><i class="bx bx-book-content"></i>Yetenekler</a></li>
+          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Eğitim Bilgileri</span></a></li>
+          <li><a href="#contact"><i class="bx bx-envelope"></i> İletişim</a></li>
 
-    <div class="col-lg-3 col-md-3 col-sm-12 p-3 sticky-top" style="height: 100vh; background-color: #c65e60;">
-      <div class="container mt-3" id="beceriler">
-        <h2><b class="text-white"><i class="fa fa-asterisk mr-3"></i>Beceriler</b></h2>
-        <p>Android</p>
-        <div class="progress my-3">
-          <div id="Android" class="progress-bar bg-secondary" role="progressbar" style="width: 0%">60%</div>
-        </div>
-        <p>MySql</p>
-        <div class="progress my-3">
-          <div id="MySQL" class="progress-bar bg-secondary" role="progressbar" style="width: 0%">50%</div>
-        </div>
-        <p>HTML-CSS</p>
-        <div class="progress my-3">
-          <div id="Html" class="progress-bar bg-secondary" role="progressbar" style="width: 0%">45%</div>
-        </div>
-        <p>Java</p>
-        <div class="progress my-3">
-          <div id="Java" class="progress-bar bg-secondary" role="progressbar" style="width: 0%">45%</div>
-        </div>
-        <p>Ruby On Rails</p>
-        <div class="progress my-3">
-          <div id="Ruby" class="progress-bar bg-secondary" role="progressbar" style="width: 0%">45%</div>
-        </div>
-        <p>Python</p>
-        <div class="progress my-3">
-          <div id="Python" class="progress-bar bg-secondary" role="progressbar" style="width: 0%">40%</div>
-        </div>
-        <big><p><b><i class="fa fa-globe mr-3"></i>Diller</b></p></big>
-        <p>İngilizce</p><!--
-        <div class="progress my-3">
-          <div id="Eng" class="progress-bar bg-secondary" role="progressbar" style="width: 0%">30%</div>
-        </div>-->
-        <div class="text-white">
-          <b class="fa fa-">Anlama:</b><i> Temel</i><br>
-          <b class="fa fa-">Konuşma:</b><i> Başlangıç</i><br>
-          <b class="fa fa-">Yazma:</b><i> Temel</i>
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Mustafa Şimşek</h1>
+      <p>Ben <span class="typed" data-typed-items="Yazılım, Geliştiriciyim"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Hakkında</h2>
+          <p><b>Kariyer hedefim,</b> yazılım sektöründe önde gelen bir kurumda, bilgi ve deneyim seviyesi yülsel, çözüm odaklı ekip üyelerinin yer aldığı
+            takımlarda yer alarak güncel yazılım geliştirme yaklaşım ve teknolojilerini kullanan, Türkiye ve dünyada fikri, teknik ve fonksiyonel açıdan farklılık yaratan ve iddialı,
+            teknik olarak güvenilir ve güçlü, son kullanıcı açısından da hızlı öğrenilip kolay kullanılabilen ve bir o kadar da verimli çalışan yazılım projelerin de yer almak.</p>
         </div>
       </div>
-    </div>
-  </div>
-</div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Yetenekler</h2>
+          <p>Staj ve okulda bir çok teknoloji ile çalıştım. kullandığım teknolojiler:</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">C# <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SQL <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Html - css <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">İllustrator <i class="val">Yükleniyor</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Eğitim Bilgileri</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="resume-item">
+              <h4>Yazılım Mühendisliği</h4>
+              <h5>2016 - 2020</h5>
+              <p><em>Mühendislik Fakültesi, Fırat Üniversitesi, Elazığ</em></p>
+              <p><strong>Algoritma, Veri Yapıları ve Veri Tabanı Yönetim Sistemleri</strong> gibi yazılım teknolojilerinin temelini oluşturan derslerden ve ayrıca <strong>Mikroişlemciler ve Programlama, Web Tasarımı ve Progamlama, Nesne Tabanlı Programlama, Yazılım Gereksinim Analizi,
+              Yazılım Tasarım ve Mimarisi, Veri Mandenciliği, Yazılım Örüntüleri, Uygulamalı Sinir Ağları, Yapay Zeka ve Uzman Sistemler ve Sayısal Görüntü İşleme Yöntemleri</strong> gibi bölüm derslerinden oldukça yüksek notlar
+              alarak mezun oldum.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Deneyim</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="resume-item">
+              <h4>Yazılım Stajyeri</h4>
+              <h5>Haziran - Ağustos 2019</h5>
+              <p><em>Yalın Software, Ulutek, Bursa</em></p>
+              <p><strong>Staj süreci boyunca geliştirdiğim proje de kullanılan dil ve teknolojiler:</strong></p>
+              <ul>
+                <li>Asp.Net WebForm</li>
+                <li>Asp.Net MVC</li>
+                <li>C#</li>
+                <li>MSSQL</li>
+                <li>WinForm</li>
+                <li>Ado.Net</li>
+                <li>Stored Procedure</li>
+              </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>İletişim</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>E-Mail:</h4>
+                <p>mustafamustafa1645@hotmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Telefon:</h4>
+                <p>05434119606</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
